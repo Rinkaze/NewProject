@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EveryWhereTrip</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="conn_error">连接失败</string>
+    <string name="conn_timeout">连接超时</string>
+    <string name="net_error">网络错误</string>
+    <string name="parse_error">解析异常</string>
+    <string name="net_unused">当前网络不可用</string>
+    <string name="agree_protocol">登录或者注册即同意到处旅行用户协议</string>
+    <string name="for_more_service">您好,为了获取更好的服务</string>
+    <string name="login_app">请登录到处旅行</string>
+    <string name="contry_code">+86</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="send_verify">发送验证码</string>
+    <string name="or">or</string>
+    <string name="send_again">重新发送</string>
+    <string name="input_verify">请输入验证码</string>
+    <string name="wait_please">请稍后...</string>
+    <string name="oauth_error">授权失败</string>
+    <string name="oauth_cancel">用户取消授权</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="verify_code">验证码：</string>
+    <string name="verify_error">验证码错误</string>
+</resources>

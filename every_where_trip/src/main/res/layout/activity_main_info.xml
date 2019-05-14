@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent"
+    tools:context="com.everywhere.trip.ui.main.activity.MainInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="@color/white">
+
+            <Button
+                android:id="@+id/bt_startLine"
+                android:layout_width="@dimen/dp_220"
+                android:layout_height="@dimen/dp_38"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_btn_ff9d53_fa"
+                android:text="开始线路"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_15" />
+
+            <Button
+                android:id="@+id/btn_show_line"
+                android:layout_width="@dimen/dp_112"
+                android:layout_height="@dimen/dp_38"
+                android:layout_marginLeft="@dimen/dp_51"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="预览线路"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/c_fa6a13"
+                android:background="@drawable/bg_btn_showline"/>
+
+            <Button
+                android:id="@+id/btn_price"
+                android:layout_width="@dimen/dp_112"
+                android:layout_height="@dimen/dp_38"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_50"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/white"
+                android:text="￥28.00"
+                android:background="@drawable/bg_btn_ff9d53_fa_r25"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@drawable/back_white" />
+
+    <ImageView
+        android:id="@+id/iv_share"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@mipmap/share" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/popbt_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_anniu"
+        android:text="拍照"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/popbt_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_anniu"
+        android:text="从手机相册选择"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/popbt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_anniu"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20" />
+
+
+</LinearLayout>

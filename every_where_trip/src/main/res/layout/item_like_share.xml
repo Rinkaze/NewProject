@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/show_all_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_140"
+        android:text="查看全部评价"
+        android:textColor="@color/c_fa6a13"
+        android:textSize="@dimen/sp_14"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_87"
+        android:layout_height="@dimen/dp_28"
+        android:background="@drawable/bg_content_ea"
+        android:layout_marginTop="@dimen/dp_63"
+        android:id="@+id/rl_like"
+        android:layout_marginLeft="@dimen/dp_144">
+
+        <ImageView
+            android:id="@+id/iv_like"
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:src="@mipmap/collect_default"/>
+
+        <TextView
+            android:id="@+id/tv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/c_636363"
+            android:layout_marginLeft="@dimen/dp_43"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_100"/>
+
+</RelativeLayout>

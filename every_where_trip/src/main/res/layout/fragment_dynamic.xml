@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent">
+
+    <ImageView
+        android:layout_width="@dimen/dp_13"
+        android:layout_height="@dimen/dp_17"
+        android:src="@mipmap/icon_me_ziliao"
+        android:layout_marginRight="@dimen/dp_77"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:textColor="@color/c_999"
+        android:textSize="@dimen/sp_12"
+        android:text="所有状态"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_status"/>
+
+</RelativeLayout>
